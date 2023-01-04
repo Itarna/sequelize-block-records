@@ -1,5 +1,5 @@
 {
-  "name": "sequelize-block-records",
+  "name": "@itarna/sequelize-block-records",
   "version": "0.0.1",
   "description": "A very simple Sequelize plugin which adds capacity for block records with only set a flag attribute.",
   "main": "lib/index.js",
@@ -32,14 +32,11 @@
   "bugs": {
     "url": "https://github.com/Itarna/sequelize-block-records/issues"
   },
-  "author": {
-    "name": "Ariel Alberto Grassano",
-    "email": "arielectron@gmail.com"
-  },
+  "author": "Ing. Ariel Alberto Grassano <arielectron@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Itarna/sequelize-block-records.git"
+    "url": "git+https://github.com/Itarna/sequelize-block-records.git"
   },
   "scripts": {
     "test": "jest"
@@ -49,5 +46,8 @@
     "faker": "^5.1.0",
     "sequelize": "^6.3.5",
     "sqlite3": "^5.0.0"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
