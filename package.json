@@ -1,6 +1,6 @@
 {
   "name": "@itarna/sequelize-block-records",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A very simple Sequelize plugin which adds capacity for block records with only set a flag attribute.",
   "main": "lib/index.js",
   "keywords": [

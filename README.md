@@ -23,7 +23,7 @@ to block records, set the blockRecords option and optionally you can specify the
 option with the field name for use as flag, as shown in the basic example below:
 
 ```js
-var sequelizeBlockRecords = require('sequelize-block-records');
+var sequelizeBlockRecords = require('@itarna/sequelize-block-records');
 
 var sequelize = new Sequelize('database', 'user', 'password');
 sequelizeBlockRecords(sequelize); // Note that is the `sequelize` instance the passed reference.
